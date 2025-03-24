@@ -1,4 +1,5 @@
 # Simulaci-n-Tienda
+#PART-1
 En este proyecto queremos simular las ventas de un negocio usando funciones muy importantes en python 
 
 El resultado final es el siguiente:
