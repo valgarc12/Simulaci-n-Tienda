@@ -1,3 +1,4 @@
+Parte Uno
 TICKET DE VENTAS 
 
 En este proyecto queremos simular las ventas de un negocio usando funciones muy importantes en python 
