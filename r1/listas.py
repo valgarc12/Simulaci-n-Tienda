@@ -1,6 +1,7 @@
-
+#Primer Parte: Aquí importamos los comandos necesarios para poder realizar nuestro objetivo
 import random as r
 import pandas as pd
+#Segunda Parte: Aquí tenemos nuestras listas correspondientes que usaremos para usar las funciones de random
 abecedario=[ 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
             'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
             'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -25,6 +26,7 @@ lineas = ['Cuadernos', 'Libretas', 'Lápices', 'Plumones', 'Borradores', 'Sacapu
 #print(f"Precio: {precio}")
 #print(f"Cantidad Vendida: {cantidad_vendida})
 
+#Tercera Parte: Definimos nuevas listas que llenaremos más abajo
 fechas = []
 sucursales = []
 productos = []
@@ -33,6 +35,7 @@ precios = []
 cantidades_vendidas = []
 totales_ticket = []
 
+#Cuarta Parte: Usamos el ciclo for para llenar las listas que teníamos arriba
 for i in range (1,1001):
  #Información a trabajar.
  fecha = "16/03/2025"
@@ -44,7 +47,7 @@ for i in range (1,1001):
  total_ticket = precio * cantidad_vendida
 
  
- #Agregamos a listas usando .append
+ #Quinte Parte: Agregamos a listas usando .append
  fechas.append(fecha)
  sucursales.append(sucursal)
  productos.append(producto)
@@ -52,7 +55,8 @@ for i in range (1,1001):
  precios.append(precio)
  cantidades_vendidas.append(cantidad_vendida)
  totales_ticket.append(total_ticket)
- 
+
+#Sexta Parte: Definimos nuestro diccionario para después usar la funcion DataFrame
 dc_1 = {
     "Fecha": fechas,
     "Sucursal" : sucursales,
